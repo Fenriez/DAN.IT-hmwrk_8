@@ -1,0 +1,61 @@
+/* TAGS */
+html {
+    font-family: 'DIN', sans-serif;
+    font-size: 10px;
+}
+html, body {
+    height: 100%;
+}
+h1, h3, p {
+    margin-bottom: 45px;
+    font-weight: 700;
+}
+p {
+    text-align: justify;
+}
+
+/* CLASSES */
+.wrapper {
+    display: grid;
+    grid-template-columns: 80%;
+    justify-content: center;
+    max-height: 100%;
+    background-color: #111110;
+    overflow: hidden;
+}
+.main {
+    width: 100%;
+    transform: perspective(450px) rotateX(25deg);
+    color: #FBCF00;
+    font-size: 8rem;
+    text-align: center;
+}
+.titles {
+    animation: scroll 30s linear infinite;
+}
+
+/* FONTS */
+@font-face {
+    font-family: 'DIN';
+    src: url(../fonts/DINPro-Medium.woff);
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DIN';
+    src: url(../fonts/DINPro-Light.woff);
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'DIN';
+    src: url(../fonts/DINPro-Bold.woff);
+    font-weight: 700;
+    font-style: normal;
+}
+
+/* ANIMATION */
+@keyframes scroll {
+    from { transform: translate(0, 65%); }
+    to { transform: translate(0, -100%); }
+}
