@@ -37,18 +37,6 @@ p {
 /* FONTS */
 @font-face {
     font-family: 'DIN';
-    src: url(../fonts/DINPro-Medium.woff);
-    font-weight: 400;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'DIN';
-    src: url(../fonts/DINPro-Light.woff);
-    font-weight: 100;
-    font-style: normal;
-}
-@font-face {
-    font-family: 'DIN';
     src: url(../fonts/DINPro-Bold.woff);
     font-weight: 700;
     font-style: normal;
