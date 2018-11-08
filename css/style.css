@@ -34,6 +34,10 @@ p {
     animation: scroll 30s linear infinite;
 }
 
+iframe {
+    opacity: 0;
+}
+
 /* FONTS */
 @font-face {
     font-family: 'DIN';
